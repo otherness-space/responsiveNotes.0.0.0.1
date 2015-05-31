@@ -233,7 +233,7 @@
 
 /** end margin section */
 
-/** responsive columns */
+/** responsive grid columns */
 
 
 .col-1 {
@@ -340,4 +340,16 @@
 
 }
 
-/** end responsive columns */
+/** end responsive grid columns */
+
+/** columns: auto|column-width column-count|initial|inherit; */
+
+.columnsAuto {
+
+    -webkit-columns: auto 19rem; /* Chrome, Safari, Opera */
+    -moz-columns: auto 19rem; /* Firefox */
+    -ms-columns: auto 19rem; /* Maybe IE, maye not? */
+    columns: auto 19rem;
+    text-align: justify;
+
+}
