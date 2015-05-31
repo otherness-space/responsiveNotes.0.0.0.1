@@ -8,41 +8,934 @@
 
 }
 
-/** background colors */
+/** background color archive */
 
-.backgroundPaleBLue {
 
-    background-color: #D6F5FF;
 
-}
+.backgroundColorAliceBlue {
 
-.backgroundPaleGray {
-
-    background-color: #EEEEEE;
+    background-color: #F0F8FF;
 
 }
 
-.backgroundSmokeGray {
+.backgroundColorAntiqueWhite {
 
-    background-color: #DCDCDC;
+    background-color: #FAEBD7;
 
 }
 
-.backgroundBlack {
+.backgroundColorAqua {
+
+    background-color: #00FFFF;
+
+}
+
+.backgroundColorAquamarine {
+
+    background-color: #7FFFD4;
+
+}
+
+.backgroundColorAzure {
+
+    background-color: #F0FFFF;
+
+}
+
+.backgroundColorBeige {
+
+    background-color: #F5F5DC;
+
+}
+
+.backgroundColorBisque {
+
+    background-color: #FFE4C4;
+}
+
+.backgroundColorBlack {
 
     background-color: #000000;
 
 }
 
-.backgroundWhite {
+.backgroundColorBlanchedAlmond {
+
+    background-color: #FFEBCD;
+}
+
+.backgroundColorBlue {
+
+    background-color: #0000FF;
+
+}
+
+.backgroundColorBlueViolet {
+
+    background-color: #8A2BE2;
+
+}
+
+.backgroundColorBrown {
+
+    background-color: #A52A2A;
+
+}
+
+.backgroundColorBurlyWood {
+
+    background-color: #DEB887;
+
+}
+
+.backgroundColorCadetBlue {
+
+    background-color: #5F9EA0;
+
+}
+
+.backgroundColorChartreuse {
+
+    background-color: #7FFF00;
+
+}
+
+
+.backgroundColorChocolate {
+
+    background-color: #D2691E;
+
+}
+
+.backgroundColorCoral {
+
+    background-color: #FF7F50;
+
+}
+
+.backgroundColorCorflowerBlue {
+
+    background-color: #6495ED;
+
+}
+
+.backgroundColorCornsilk {
+
+    background-color: #FFF8DC;
+
+}
+
+.backgroundColorCrimson {
+
+    background-color: #DC143C;
+
+}
+
+.backgroundColorCyan {
+
+    background-color: #00FFFF;
+
+}
+
+.backgroundColorDarkBlue {
+
+    background-color: #00008B;
+
+}
+
+.backgroundColorDarkCyan {
+
+    background-color: #008B8B;
+
+}
+
+.backgroundColorDarkGoldenRod {
+
+    background-color: #B8860B;
+
+}
+
+.backgroundColorDarkGray {
+
+    background-color: #A9A9A9;
+
+}
+
+.backgroundColorDarkGreen {
+
+    background-color: #006400;
+
+}
+
+.backgroundColorDarkKhaki {
+
+    background-color: #BDB76B;
+
+}
+
+.backgroundColorDarkMagenta {
+
+    background-color: #8B008B;
+
+}
+
+.backgroundColorDarkOliveGreen {
+
+    background-color: #556B2F;
+
+}
+
+.backgroundColorDarkOrange {
+
+    background-color: #FF8V00;
+
+}
+
+.backgroundColorDarkOrchid {
+
+    background-color: #9932CC;
+
+}
+
+.backgroundColorDarkRed {
+
+    background-color: #8B0000;
+
+}
+
+.backgroundColorDarkSalmon {
+
+    background-color: #E9967A;
+
+}
+
+.backgroundColorDarkSeaGreen {
+
+    background-color: #8FBC8F;
+
+}
+
+.backgroundColorSlateBlue {
+
+    background-color: #483D8B;
+
+}
+
+.backgroundColorSlateGray {
+
+    background-color: #2F4F4F;
+
+}
+
+.backgroundColorDarkTurquoise {
+
+    background-color: #00CED1;
+
+}
+
+
+.backgroundColorDarkViolet {
+
+    background-color: #9400D3;
+
+}
+
+.backgroundColorDeepPink {
+
+    background-color: #FF1493;
+
+}
+
+.backgroundColorDeepSkyBlue {
+
+    background-color: #00BFFF;
+
+}
+
+.backgroundColorDimGray {
+
+    background-color: #696969;
+
+}
+
+.backgroundColorDodgerBlue {
+
+    background-color: #1E90FF;
+
+}
+
+.backgroundColorFireBrick {
+
+    background-color: #B22222;
+
+}
+
+.texFloralWhitet {
+
+    background-color: #FFFAF0;
+
+}
+
+.backgroundColorForestGreen {
+
+    background-color: #228B22;
+
+}
+
+.backgroundColorFuschia {
+
+    background-color: #FF00FF;
+
+}
+
+/** Gainsboro is a shade lighter than light gray */
+
+.backgroundColorGainsboro {
+
+    background-color: #DCDCDC;
+
+}
+
+.backgroundColorGhostWhite {
+
+    background-color: #F8F8FF;
+
+}
+
+.backgroundColorGold {
+
+    background-color: #FFD700;
+
+}
+
+.backgroundColorGoldenRod {
+
+    background-color: #DAA520;
+
+}
+
+.backgroundColorGray {
+
+    background-color: #808080;
+
+}
+
+.backgroundColorGreen {
+
+    background-color: #008000;
+
+}
+
+.backgroundColorzGreenYellow {
+
+    background-color: #ADFF2F;
+
+}
+
+.backgroundColorHoneyDew {
+
+    background-color: #F0FFF0;
+
+}
+
+.backgroundColorHotPink {
+
+    background-color: #FF68B4;
+
+}
+
+.backgroundColorIndianRed {
+
+    background-color: #CD5C5C;
+
+}
+
+.backgroundColorIndigo {
+
+    background-color: #4B0082;
+
+}
+
+.backgroundColorIvory {
+
+    background-color: #FFFFF0;
+
+}
+
+.backgroundColorKhaki {
+
+    background-color: #F0E68C;
+
+}
+
+.backgroundColorLavender {
+
+    background-color: #E6E6FA;
+
+}
+
+
+.backgroundColorLavenderBlush {
+
+    background-color: #FFF0F5;
+
+}
+
+.backgroundColorLawnGreen {
+
+    background-color: #7CFC00;
+
+}
+
+.backgroundColorLemonChiffon {
+
+    background-color: #FFFACD;
+
+}
+
+.backgroundColorLightBlue {
+
+    background-color: #ADD8E6;
+
+}
+
+.backgroundColorLightCoral {
+
+    background-color: #F08080;
+
+}
+
+.backgroundColor LightCyan{
+
+    background-color: #E0FFFF;
+
+}
+
+.backgroundColorLightGoldenRodYellow {
+
+    background-color: #FAFAD2;
+
+}
+
+.backgroundColorLightGray {
+
+    background-color: #D3D3D3;
+
+}
+
+.backgroundColorLightGreen {
+
+    background-color: #90EE90;
+
+}
+
+.backgroundColorLightPink {
+
+    background-color: #FFB61;
+
+}
+
+.backgroundColorLightSalmon {
+
+    background-color: #FFA07A;
+
+}
+
+.backgroundColorLightSeaGreen {
+
+    background-color: #20B2AA;
+
+}
+
+.backgroundColorLightSkyBlue {
+
+    background-color: #87CEFA;
+
+}
+
+.backgroundColorLightSlateGray {
+
+    background-color: #778899;
+
+}
+
+.backgroundColorLightSteelBlue {
+
+    background-color: #B0C4DE;
+
+}
+
+.backgroundColorLightYellow {
+
+    background-color: #FFFFE0;
+
+}
+
+.backgroundColorLime {
+
+    background-color: #00FF00;
+
+}
+
+.backgroundColorLimeGreen {
+
+    background-color: #32CD32;
+
+}
+
+.backgroundColorLinen {
+
+    background-color: #FAF0E6;
+
+}
+
+.backgroundColorMagenta {
+
+    background-color: #FF00FF;
+
+}
+
+.backgroundColorMaroon {
+
+    background-color: #800000;
+
+}
+
+.backgroundColorMediumAquaMarine {
+
+    background-color: #66CDAA;
+
+}
+
+.backgroundColorMediumBlue {
+
+    background-color: #0000CD;
+
+}
+
+.backgroundColorMediumOrchid {
+
+    background-color: #BA55D3;
+
+}
+
+.backgroundColorMediumPurple {
+
+    background-color: #9370DB;
+
+}
+
+
+.backgroundColorMediumSeaGreen {
+
+    background-color: #3CB371;
+
+}
+
+
+.backgroundColorMediumSlateBlue {
+
+    background-color: #7B68EE;
+
+}
+
+
+.backgroundColorMediumSpringGreen {
+
+    background-color: #00FA9A;
+
+}
+
+
+.backgroundColorMediumTurquoise {
+
+    background-color: #48D1CC;
+
+}
+
+
+.backgroundColorMediumVioletRed {
+
+    background-color: #C71585;
+
+}
+
+
+.backgroundColorMidnightBlue {
+
+    background-color: #191970;
+
+}
+
+
+.backgroundColorMintCream {
+
+    background-color: #F5FFFA;
+
+}
+
+
+.backgroundColorMistyRose {
+
+    background-color: #FFE4E1;
+
+}
+
+
+.backgroundColorMoccasin {
+
+    background-color: #FFE4B5;
+
+}
+
+
+.backgroundColorNavajoWhite {
+
+    background-color: #FFDEAD;
+
+}
+
+
+.backgroundColorNavy {
+
+    background-color: #00080;
+
+}
+
+
+.backgroundColorOldLace {
+
+    background-color: #FDF5E6;
+
+}
+
+
+.backgroundColorOlive {
+
+    background-color: #8080000;
+
+}
+
+
+.backgroundColorOliveDrab {
+
+    background-color: #6B8E23;
+
+}
+
+
+.backgroundColorOrange {
+
+    background-color: #FFA500;
+
+}
+
+
+.backgroundColorOrangeRed {
+
+    background-color: #FF4500;
+
+}
+
+
+.backgroundColorOrchid {
+
+    background-color: #DA70D6;
+
+}
+
+
+.backgroundColorPaleGoldenRod {
+
+    background-color: #EEE8AA;
+
+}
+
+
+.backgroundColorPaleGreen {
+
+    background-color: #98FB98;
+
+}
+
+
+.backgroundColorPaleTurquoise {
+
+    background-color: #AFEEEE;
+
+}
+
+
+.backgroundColorPaleVioletRed {
+
+    background-color: #DB7093;
+
+}
+
+
+.backgroundColorPapayaWhip {
+
+    background-color: #FFEFD5;
+
+}
+
+
+.backgroundColorPeachPuff {
+
+    background-color: #FFDAB9;
+
+}
+
+
+.backgroundColorPeru {
+
+    background-color: #CD853F;
+
+}
+
+
+.backgroundColorPink {
+
+    background-color: #FFC0CB;
+
+}
+
+
+.backgroundColorPlum {
+
+    background-color: #DDA0DD;
+
+}
+
+
+.backgroundColorPowderBlue {
+
+    background-color: #B0E0E6;
+
+}
+
+
+.backgroundColorPurple {
+
+    background-color: #800080;
+
+}
+
+
+.backgroundColorRebeccaPurple {
+
+    background-color: #663399;
+
+}
+
+
+.backgroundColorRed {
+
+    background-color: #FF0000;
+
+}
+
+
+.backgroundColorRosyBrown {
+
+    background-color: #BC8F8F;
+
+}
+
+
+.backgroundColorRoyalBlue {
+
+    background-color: #4169E1;
+
+}
+
+
+.backgroundColorSaddleBrown {
+
+    background-color: #8B4513;
+
+}
+
+
+.backgroundColorSalmon {
+
+    background-color: #FA8072;
+
+}
+
+
+.backgroundColorSandyBrown {
+
+    background-color: #F4A460;
+
+}
+
+
+.backgroundColorSeaGreen {
+
+    background-color: #2E8B57;
+
+}
+
+
+.backgroundColorSeaShell {
+
+    background-color: #FFF5EE;
+
+}
+
+
+.backgroundColorSienna {
+
+    background-color: #A0522D;
+
+}
+
+
+.backgroundColorSilver {
+
+    background-color: #C0C0C0;
+
+}
+
+
+.backgroundColorSkyBlue {
+
+    background-color: #87CEEB;
+
+}
+
+
+.backgroundColorSlateBlue {
+
+    background-color: #6A5ACD;
+
+}
+
+
+.backgroundColorSlateGray {
+
+    background-color: #708090;
+
+}
+
+
+.backgroundColorSnow {
+
+    background-color: #FFFAFA;
+
+}
+
+
+.backgroundColorSpringGreen {
+
+    background-color: #00FF7F;
+
+}
+
+
+.backgroundColorSteelBlue {
+
+    background-color: #4682B4;
+
+}
+
+
+.backgroundColorTan {
+
+    background-color: #D2B48C;
+
+}
+
+
+.backgroundColorTeal {
+
+    background-color: #008080;
+
+}
+
+
+.backgroundColorThistle {
+
+    background-color: #D8BFD8;
+
+}
+
+
+.backgroundColorTomato {
+
+    background-color: #FF6347;
+
+}
+
+
+.backgroundColorTurquoise {
+
+    background-color: #40E0D0;
+
+}
+
+
+.backgroundColorViolet {
+
+    background-color: #EE82EE;
+
+}
+
+
+.backgroundColorWheat {
+
+    background-color: #F5DEB3;
+
+}
+
+
+.backgroundColorWhite {
 
     background-color: #FFFFFF;
+
+}
+
+
+.backgroundColorWhiteSmoke {
+
+    background-color: #F5F5F5;
+
+}
+
+
+.backgroundColorYellow {
+
+    background-color: #FFFF00;
+
+}
+
+
+.backgroundColorYellowGreen {
+
+    background-color: #9ACD32;
+
+}
+
+
+/** my background colors */
+
+.backgroundColorPaleBLue {
+
+    background-color: #D6F5FF;
+
+}
+
+.backgroundColorPaleGray {
+
+    background-color: #EEEEEE;
+
 }
 
 /** end background colors */
 
-/** text colors for responsive testing */
 
+/** text color archive for responsive testing and notes */
 
 .textAliceBlue {
 
