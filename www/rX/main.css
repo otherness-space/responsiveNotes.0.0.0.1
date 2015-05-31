@@ -8,6 +8,10 @@
 
 }
 
+/** background colors */
+
+/** end background colors */
+
 /** align text section */
 
 .alignTextLeft {
@@ -353,3 +357,5 @@
     text-align: justify;
 
 }
+
+/** end columns */
