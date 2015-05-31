@@ -1,0 +1,343 @@
+.boxBorderLine {
+
+    box-sizing: border-box;
+    border: 0.0625rem solid #DCDCDC;
+    border-radius: .31rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+/** align text section */
+
+.alignTextLeft {
+
+    text-align: left;
+
+}
+
+.alignTextRight {
+
+    text-align: right;
+}
+
+.alignTextCenter {
+
+    text-align: center;
+}
+
+.alignTextJustify {
+
+    text-align: justify;
+}
+
+/** end align text section */
+
+/** align content section */
+
+.alignContentCenter {
+
+    align-content: center;
+}
+
+/** end align content section */
+
+/** align items section */
+
+.alignItemsCenter {
+
+    align-items: center;
+}
+
+/** end align items section */
+
+/** align self section */
+
+.alignSelfCenter {
+
+    align-self: center;
+}
+
+.alignSelfStart {
+
+    align-self: flex-start;
+
+}
+
+.alignSelfEnd {
+
+    align-self: flex-end;
+}
+
+/** end align self section */
+
+/** justify content section */
+
+.justifyContentStart {
+
+    /**  */
+
+    justify-content: flex-start;
+
+}
+
+
+
+.justifyContentEnd {
+
+    /**  */
+
+    justify-content: flex-end;
+
+}
+
+.justifyContentCenter {
+
+    /**  */
+
+    justify-content: center;
+
+}
+
+.justifyContentBetween {
+
+    /**  */
+
+}
+
+/** end justify content section */
+
+/** padding section */
+
+.padding2px {
+
+    padding: 0.125rem;
+}
+
+.padding5px {
+
+    padding: 0.3125rem;
+}
+
+
+.paddingLeft2px {
+
+    padding-left: 0.125rem;
+}
+
+
+.paddingLeft5px {
+
+    padding-left: 0.3125rem;
+}
+
+.paddingRight2px {
+
+    padding-right: 0.125rem;
+}
+
+
+.paddingRight5px {
+
+    padding-right: 0.3125rem;
+}
+
+.paddingTop2px {
+
+    padding-top: 0.125rem;
+}
+
+.paddingTop5px {
+
+    padding-top: 0.3125rem;
+}
+
+.paddingBottom2px {
+
+    padding-bottom: 0.125rem;
+}
+
+.paddingBottom5px {
+
+    padding-bottom: 0.3125rem;
+}
+/** end padding section */
+
+/** margin section */
+
+.margin0px {
+
+    margin: 0;
+
+}
+
+.margin2px {
+
+    margin: 0.125rem;
+
+}
+
+.margin5px {
+
+    margin: 0.3125rem;
+
+}
+
+.marginLeft2px {
+
+    margin-left: 0.125rem;
+
+}
+
+.marginLeft5px {
+
+    margin-left: 0.3125rem;
+
+}
+
+.marginRight2px {
+
+    margin-right: 0.125rem;
+
+}
+
+.marginRight5px {
+
+    margin-right: 0.3125rem;
+
+}
+
+.marginTop2px {
+
+    margin-top: 0.125rem;
+
+}
+
+.marginTop5px {
+
+    margin-top: 0.3125rem;
+
+}
+
+.marginBottom2px {
+
+    margin-bottom: 0.125rem;
+
+}
+
+.marginBottom5px {
+
+    margin-bottom: 0.3125rem;
+
+}
+
+/** end margin section */
+
+/** responsive columns */
+
+
+.col-1 {
+
+    width: 8.2583%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-2 {
+
+    width: 16.5166%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-3 {
+
+    width: 24.7749%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-4 {
+
+    width: 33.0332%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-5 {
+
+    width: 41.2915%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-6 {
+
+    width: 49.5498%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-7 {
+
+    width: 57.8081%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-8 {
+
+    width: 66.0664%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-9 {
+
+    width: 74.3247%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-10 {
+
+    width: 82.583%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-11 {
+
+    width: 90.8413%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-12 {
+
+    width: 99.0996%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+.col-100 {
+
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+/** end responsive columns */
