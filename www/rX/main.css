@@ -10,7 +10,45 @@
 
 /** background colors */
 
+.backgroundPaleBLue {
+
+    background-color: #D6F5FF;
+
+}
+
+.backgroundPaleGray {
+
+    background-color: #EEEEEE;
+
+}
+
+.backgroundSmokeGray {
+
+    background-color: #DCDCDC;
+
+}
+
+.backgroundBlack {
+
+    background-color: #000000;
+
+}
+
+.backgroundWhite {
+
+    background-color: #FFFFFF;
+}
+
 /** end background colors */
+
+/** text colors for responsive testing */
+
+
+
+
+/** end text colors for responsive testing */
+
+
 
 /** align text section */
 
