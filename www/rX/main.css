@@ -1,14 +1,32 @@
-.boxBorderLine {
+.boxBorderLineBlack {
 
     box-sizing: border-box;
-    border: 0.0625rem solid #DCDCDC;
+    border: 0.0625rem solid #00000;
     border-radius: .31rem;
     padding: 0;
     margin: 0;
 
 }
 
-/** fonts's styles */
+.boxBorderLineGainsboro {
+
+    box-sizing: border-box;
+    border: 0.0625rem solid #DCDCDC;
+    border-radius: .15rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+div {
+
+    box-sizing: border-box;
+
+}
+
+
+
+/** fonts's styles are mobile first */
 
 /** font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 
@@ -16,7 +34,11 @@ h1 {
 
     /**  */
 
+}
 
+h1, h2, h3, h4, h5, h6, p {
+
+    font-family: 'Lucida Console', 'Courier New', Georgia, Arial;
 
 }
 
@@ -58,6 +80,13 @@ h5 {
 
 }
 
+nav h5 {
+
+    /**  */
+    font: normal 900 .8rem/.05rem 'Lucida Console', 'Courier New', Georgia, Arial;
+
+}
+
 h6 {
 
     /**  */
@@ -73,12 +102,14 @@ p {
 aside p {
 
     /**  */
+    font: normal 'Lucida Console', 'Courier New', Georgia, Arial;
 
 }
 
 footer p {
 
     /**  */
+    font: normal 'Lucida Console', 'Courier New', Georgia, Arial;
 
 }
 
@@ -2271,3 +2302,420 @@ footer p {
 }
 
 /** end columns */
+
+/** flex box container parents */
+
+.flexBoxParent {
+
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+
+}
+
+.flexInlineBoxParent {
+
+    display: inline-flex;
+    -webkit-display: inline-flex;
+    -moz-display: inline-flex;
+
+}
+
+.flexDirectionColumn {
+
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+}
+
+.flexDirectionColumnReverse {
+
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+
+}
+
+.flexDirectionRow {
+
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+
+}
+
+.flexDirectionRowReverse {
+
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+}
+
+.flexWrapNoWrap {
+
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+
+}
+
+.flexWrap {
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+
+}
+
+.flexWrapReverse {
+
+    flex-wrap: wrap-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+    -moz-flex-wrap: wrap-reverse;
+
+}
+
+.flexFlow {
+
+    /** default value flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    /** -webkit-flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    /** -moz-flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+
+}
+
+/** justify content section */
+
+.justifyContentStart {
+
+    /**  */
+
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+
+}
+
+
+.justifyContentEnd {
+
+    /**  */
+
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+
+}
+
+.justifyContentCenter {
+
+    /**  */
+
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+
+}
+
+.justifyContentBetween {
+
+    /**  */
+
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+
+}
+
+.justifyContentAround {
+
+    /**  */
+
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+}
+
+/** end justify content section */
+
+/** align items section */
+
+.alignItemsStart {
+
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+.alignItemsEnd {
+
+    align-items: flex-end;
+    -webkit-align-items: flex-start;
+
+}
+
+.alignItemsCenter {
+
+    align-items: center;
+    -webkit-align-items: center;
+
+}
+
+.alignItemsBaseline {
+
+    align-items: baseline;
+    -webkit-align-items: baseline;
+
+}
+
+.alignItemsStretch {
+
+    align-items: stretch;
+    -webkit-align-items: stretch;
+
+}
+
+/** end align items section */
+
+/** align content section */
+
+.alignContentStart {
+
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+
+}
+
+.alignContentEnd {
+
+    align-content: flex-end;
+    -webkit-align-content: flex-end;
+
+}
+
+.alignContentCenter {
+
+    align-content: center;
+    -webkit-align-content: center;
+
+}
+
+.alignContentSpaceBetween {
+
+    align-content: space-between;
+    -webkit-align-content: space-between;
+
+}
+
+.alignContentSpaceAround {
+
+    align-content: space-around;
+    -webkit-align-content: space-around;
+
+}
+
+.alignContentStretch {
+
+    align-content: stretch;
+    -webkit-align-content: stretch;
+}
+/** end align content section */
+
+
+/** end flex box container parents */
+
+/** flex items children */
+
+.flexItemOrder {
+
+    /** order: <integer of how the item appears: 1, 2, 3, ... n+1 ...>; */
+    /** -webkit-order: <integer of how the item appears: 1, 2, 3, ... n+1 ...>; */
+    /**-moz-order: <integer of how the item appears: 1, 2, 3, ... n+1 ...>; */
+}
+
+.flexItemGrow {
+
+    /** flex-grow: <factor of one ... (2 will be double sized) will set every item to an equal size>; */
+    /** -webkit-flex-grow: <factor of one ... (2 will be double sized) will set every item to an equal size>; */
+    /** -moz-flex-grow: <factor of one ... (2 will be double sized) will set every item to an equal size>; */
+
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -moz-flex-grow: 0;
+
+}
+
+.flexItemShrink {
+
+    /** flex-shrink: <same as grow>; */
+    /** -webkit-flex-shrink: <same as grow>; */
+    /** -moz-flex-shrink: <same as grow>; */
+
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -moz-flex-shrink: 0;
+
+}
+
+.flexItemBasis {
+
+    /** flex-basis: <initial length per unit of flex item>; */
+    /** -webkit-flex-basis: <initial length per unit of flex item>; */
+    /** -moz-flex-basis: <initial length per unit of flex item>; */
+
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+    -ms-flex-basis: auto;
+    -moz-flex-basis: auto;
+
+}
+
+.flexItemNone {
+
+    /** flex: | flex-grow | flex-shrink | flex-basis |; */
+    /** -webkit-flex: | flex-grow | flex-shrink | flex-basis |; */
+    /** -ms-flex: | flex-grow | flex-shrink | flex-basis |; */
+    /** -moz-flex: | flex-grow | flex-shrink | flex-basis |; */
+
+    /** flex: none; */
+
+    flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    -moz-flex: none;
+
+    /**
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+
+    */
+}
+
+.flexItemAuto {
+
+    /** flex: auto; */
+
+    flex:  auto;
+    -webkit-flex:  auto;
+    -ms-flex:  auto;
+    -moz-flex:  auto;
+
+    /**
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    -moz-flex: 1 1 auto; */
+}
+
+.flexItemInitial {
+
+    /** flex: initial; */
+
+    /**
+    flex: initial;
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    -moz-flex: initial;
+
+    */
+
+    flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+
+
+}
+
+/** align self */
+
+.alignSelfCenter {
+
+    align-self: center;
+    -webkit-align-self: center;
+
+}
+
+.alignSelfStart {
+
+    align-self: flex-start;
+    -webkit-align-self: flex-start;
+
+}
+
+.alignSelfEnd {
+
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+
+}
+
+.alignSelfAuto {
+
+    align-self: auto;
+    -webkit-align-self: auto;
+
+}
+
+.alignSelfBaseline {
+
+    align-self: baseline;
+    -webkit-align-self: baseline;
+
+}
+
+.alignSelfStretch {
+
+    align-self: stretch;
+    -webkit-align-self: stretch;
+
+}
+
+
+/** end align self */
+
+/** end flex items children */
+
+/** visibility */
+
+.hideShow {
+
+    display: none;
+
+}
+
+.showHide {
+
+    visibility: visible;
+    border-collapse: inherit;
+    overflow: visible;
+
+}
+
+.showHide:hover {
+
+    background-color: PaleGreen;
+}
+
+
+.navShow:hover {
+
+    /**  */
+
+}
+
+.navHide:hover {
+
+    /**  */
+
+}
+
+
+
+
+
+/** end visibility */
