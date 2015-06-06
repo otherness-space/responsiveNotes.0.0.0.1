@@ -10,15 +10,33 @@
 
 /** fonts's styles */
 
+/** font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
+
 h1 {
 
     /**  */
-    
+
+
+
+}
+
+header h1 {
+
+    /**  */
+    font: normal 900 1.75rem/.5 'Lucida Console', 'Courier New', Georgia, Arial;
+
 }
 
 h2 {
 
     /**  */
+
+}
+
+header h2 {
+
+    /**  */
+    font: italic 900 1.2rem/.3 'Lucida Console', 'Courier New', Georgia, Arial;
 
 }
 
@@ -52,13 +70,13 @@ p {
 
 }
 
-p.aside {
+aside p {
 
     /**  */
 
 }
 
-p.footer {
+footer p {
 
     /**  */
 
