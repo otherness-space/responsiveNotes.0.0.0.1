@@ -2376,7 +2376,7 @@ footer p {
 
 }
 
-.flexFlow {
+.flexFlowRow {
 
     /** default value flex-flow: | flex-direction | row | flex-wrap | nowrap; */
     /** -webkit-flex-flow: | flex-direction | row | flex-wrap | nowrap; */
@@ -2386,6 +2386,18 @@ footer p {
     -moz-flex-flow: row nowrap;
 
 }
+
+.flexFlowColumn {
+
+    /** default value flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    /** -webkit-flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    /** -moz-flex-flow: | flex-direction | row | flex-wrap | nowrap; */
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+
+}
+
 
 /** justify content section */
 
